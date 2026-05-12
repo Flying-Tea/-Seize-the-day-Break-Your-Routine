@@ -3,7 +3,7 @@ import { ReuseButton } from "../ui/MyButton"
 
 const CustomFooter = () => {
     return (
-        <footer className="w-full p-6 bg-slate-800 mt-5 text-white justify-between items-center border-t backdrop-blur-2xl">
+        <footer className="w-full p-6 bg-slate-800  text-white justify-between items-center border-t backdrop-blur-2xl">
             <ReuseButton intent="primaryButton" href="/about" className="flex items-center gap-2 border-2 p-2 rounded-lg hover:bg-teal-500">
                 <User />
                 <span>About Us</span>

@@ -3,6 +3,9 @@ import { Card, CardContent } from "../ui/card";
 import { Button } from "../ui/button";
 import { ReflectionNavBar } from "../ui/reflectionNavBar";
 import Modal from "../Modal";
+import SeizeDayGif from "../../assets/SeizeDay.gif";
+import deskstand from "../../assets/DeadPoetsDeskStanding.jpg";
+import deadpoetsNeil from "../../assets/deadpoetsNeil.webp";
 
 type Reflection = {
   id: number;
@@ -39,7 +42,7 @@ const reflections: Reflection[] = [
   {
     id: 1,
     title: "Carpe Diem",
-    gif: "https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif",
+    gif: SeizeDayGif,
     quote: "Carpe diem. Seize the day, boys.",
     prompt: "What is something you're putting off that you shouldn't be?",
     context:
@@ -48,8 +51,8 @@ const reflections: Reflection[] = [
   {
     id: 2,
     title: "Neil's Struggle",
-    gif: "https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif",
-    quote: "I just want to be myself.",
+    gif: deadpoetsNeil,
+    quote: "If I don’t ask him, at least I won’t be disobeying him.",
     prompt: "Have you ever felt pressure to live someone else's life?",
     context:
       "Neil faces pressure from his father to follow a strict path rather than his passion."
@@ -57,7 +60,7 @@ const reflections: Reflection[] = [
   {
     id: 3,
     title: "O Captain! My Captain!",
-    gif: "https://media.giphy.com/media/26xBwdIuRJiAIqHwA/giphy.gif",
+    gif: deskstand,
     quote: "O Captain! My Captain!",
     prompt: "When would you stand up for what you believe in?",
     context:
@@ -75,9 +78,9 @@ const communityPosts: CommunityPost[] = [
   },
   {
     id: 2,
-    quote: "I just want to be myself.",
+    quote: "If I don’t ask him, at least I won’t be disobeying him.",
     response:
-      "A lot of students feel pressure to become what others expect from them.",
+      "This quote made me realize the importance of speaking up for what I believe in.",
     likes: 34
   },
   {
